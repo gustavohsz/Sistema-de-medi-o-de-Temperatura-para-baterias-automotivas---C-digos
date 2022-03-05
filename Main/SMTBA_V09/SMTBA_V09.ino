@@ -133,6 +133,9 @@ void setup() {
   display.setTextSize(1);
   display.setCursor(5, 25);
   display.print("WiFi conectado");
+  digitalWrite(buzzer, HIGH);
+  delay(50);
+  digitalWrite(buzzer, LOW);
   display.display();
   delay(2000);
   display.clearDisplay();
@@ -155,6 +158,18 @@ void setup() {
     display.setTextSize(1);
     display.setCursor(2, 25);
     display.print("Falha ao montar o");
+    for (int i = 0; i < 5; i++) {
+      digitalWrite(buzzer, HIGH);
+      delay(50);
+      digitalWrite(buzzer, LOW);
+      delay(50);
+      tone(buzzer, 1500);
+      delay(500);
+
+      //Desligando o buzzer.
+      noTone(buzzer);
+      delay(500);
+    }
     display.setCursor(2, 35);
     display.print("cartao!");
     display.display();
