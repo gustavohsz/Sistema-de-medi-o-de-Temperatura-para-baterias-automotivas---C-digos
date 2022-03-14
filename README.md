@@ -1,3 +1,3 @@
-# Sistema-de-medi-o-de-Temperatura-para-baterias-automotivas---C-digos
+# Sistema-de-medicaoo-de-Temperatura-para-baterias-automotivas---Codigos
 
-Adicionar aqui todos os códigos produzidos no projeto
+Último código atualizado (Main/SMTBA_v09/SMTBA_v09.ino
