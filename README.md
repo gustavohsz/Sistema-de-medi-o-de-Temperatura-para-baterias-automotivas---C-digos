@@ -1,4 +1,4 @@
-# Sistema-de-medicaoo-de-Temperatura-para-baterias-automotivas---Codigos
+# Sistema-de-medicao-de-Temperatura-para-baterias-automotivas---Codigos
 
 Último código atualizado na pasta -> Main/SMTBA_v09/SMTBA_V09.ino 
 
